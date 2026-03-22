@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "LudwigsMysteriousWorld:item/ludwigs_iris_picture"
+    "model": "ludwigs-mysterious-world:item/ludwigs_iris_picture"
   }
 }
