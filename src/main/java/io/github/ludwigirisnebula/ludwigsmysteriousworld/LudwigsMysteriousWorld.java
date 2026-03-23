@@ -1,5 +1,6 @@
 package io.github.ludwigirisnebula.ludwigsmysteriousworld;
 
+import io.github.ludwigirisnebula.ludwigsmysteriousworld.block.ModBlocks;
 import io.github.ludwigirisnebula.ludwigsmysteriousworld.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -19,6 +20,7 @@ public class LudwigsMysteriousWorld implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

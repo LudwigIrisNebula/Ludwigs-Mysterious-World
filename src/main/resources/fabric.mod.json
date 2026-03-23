@@ -12,7 +12,7 @@
 		"sources": "https://github.com/LudwigIrisNebula/Ludwigs-Mysterious-World"
 	},
 	"license": "MIT",
-	"icon": "assets/ludwigs-mysterious-world/icon.png",
+	"icon": "assets/ludwigs-mysterious-world/textures/item/ludwigs_iris_picture.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
