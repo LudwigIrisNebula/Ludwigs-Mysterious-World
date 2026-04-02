@@ -1,6 +1,7 @@
 package io.github.ludwigirisnebula.ludwigsmysteriousworld;
 
 import io.github.ludwigirisnebula.ludwigsmysteriousworld.block.ModBlocks;
+import io.github.ludwigirisnebula.ludwigsmysteriousworld.item.ModItemGroups;
 import io.github.ludwigirisnebula.ludwigsmysteriousworld.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -19,6 +20,8 @@ public class LudwigsMysteriousWorld implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 

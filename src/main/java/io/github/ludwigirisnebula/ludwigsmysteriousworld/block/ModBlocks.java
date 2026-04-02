@@ -2,10 +2,7 @@ package io.github.ludwigirisnebula.ludwigsmysteriousworld.block;
 
 import io.github.ludwigirisnebula.ludwigsmysteriousworld.LudwigsMysteriousWorld;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -16,6 +13,9 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
+
+import java.util.function.Function;
 
 public class ModBlocks {
 
@@ -23,50 +23,105 @@ public class ModBlocks {
     //   Building
     public static final Block WHITE_DIAMOND_BLOCK =
         registerBlock("white_diamond_block",
-        AbstractBlock.Settings.create()
-                .strength(4f, 3.0F) //破坏时间
-                .requiresTool() //使用工具挖掘
-                .sounds(BlockSoundGroup.AMETHYST_BLOCK)
-                .mapColor(MapColor.WHITE)
-                .slipperiness(0.75F) //有点滑
-        );
-    //  Ore
+                properties -> new Block(properties
+                        .strength(4f, 3.0F) //破坏时间
+                        .requiresTool() //使用工具挖掘
+                        .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                        .mapColor(MapColor.WHITE)
+                        .slipperiness(0.75F) //有点滑
+                ));
+//    public static final Block WHITE_DIAMOND_BLOCK =
+//        registerBlock("white_diamond_block",
+//        AbstractBlock.Settings.create()
+//                .strength(4f, 3.0F) //破坏时间
+//                .requiresTool() //使用工具挖掘
+//                .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+//                .mapColor(MapColor.WHITE)
+//                .slipperiness(0.75F) //有点滑
+//        );
+    //  Nature
+        //    Obsidian
+    public static final Block SNOWFLAKE_OBSIDIAN =
+        registerBlock("snowflake_obsidian",
+                properties -> new Block(
+                        properties
+                                .instrument(NoteBlockInstrument.BASEDRUM)
+                                .strength(50.0F, 1200.0F) // Obsidian level
+                                .requiresTool()
+                                .sounds(BlockSoundGroup.STONE)
+                                .mapColor(MapColor.BLACK)
+                ));
+    public static final Block MAHOGANY_OBSIDIAN =
+            registerBlock("mahogany_obsidian",
+                    properties -> new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    ));
+
+        //    Ore
     public static final Block DEEPSLATE_WHITE_DIAMOND_ORE =
             registerBlock("deepslate_white_diamond_ore",
-                    AbstractBlock.Settings.create()
+                    properties -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    properties
                             .instrument(NoteBlockInstrument.BASEDRUM)
                             .strength(4.5F, 3.0F)
                             .requiresTool()
                             .sounds(BlockSoundGroup.DEEPSLATE)
                             .mapColor(MapColor.GRAY)
-            );
+            ));
     public static final Block WHITE_DIAMOND_ORE =
             registerBlock("white_diamond_ore",
-                    AbstractBlock.Settings.create()
-                            .strength(3.0F, 3.0F)
-                            .requiresTool()
-                            .sounds(BlockSoundGroup.STONE)
-                            .mapColor(MapColor.GRAY)
-            );
+                    properties -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                            properties
+                                    .strength(3.0F, 3.0F)
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.GRAY)
+                    ));
+//    public static final Block WHITE_DIAMOND_ORE =
+//            registerBlock("white_diamond_ore",
+//                    AbstractBlock.Settings.create()
+//                            .strength(3.0F, 3.0F)
+//                            .requiresTool()
+//                            .sounds(BlockSoundGroup.STONE)
+//                            .mapColor(MapColor.GRAY)
+//            );
+
+
+
+
+
+
 
 
 //  main register
-    private static Block registerBlock(String name, AbstractBlock.Settings blockSettings){
-        RegistryKey<Block>key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(LudwigsMysteriousWorld.MOD_ID, name));
-        Block block = new Block(blockSettings.registryKey(key));
-        registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, key, block);
-    }
+//    --test I--
+//    private static Block registerBlock(String name, AbstractBlock.Settings blockSettings){
+//        RegistryKey<Block>key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(LudwigsMysteriousWorld.MOD_ID, name));
+//        Block block = new Block(blockSettings.registryKey(key));
+//        registerBlockItem(name, block);
+//        return Registry.register(Registries.BLOCK, key, block);
+//    }
 //    --Original--
 //    private static Block registerBlock(String name, Block block){
 //        registerBlockItem(name, block);
 //        return Registry.register(Registries.BLOCK, Identifier.of(LudwigsMysteriousWorld.MOD_ID, name), block);
 //    }
+//    --Update Original--
+private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function) {
+    Block toRegister = function.apply(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(LudwigsMysteriousWorld.MOD_ID, name))));
+    registerBlockItem(name, toRegister);
+    return Registry.register(Registries.BLOCK, Identifier.of(LudwigsMysteriousWorld.MOD_ID, name), toRegister);
+}
 
-    private static void registerBlockItem(String name, Block block){
-        RegistryKey<Item>key = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(LudwigsMysteriousWorld.MOD_ID, name));
-        BlockItem item = new BlockItem(block, new Item.Settings().registryKey(key));
-        Registry.register(Registries.ITEM, key, item);
+    private static void registerBlockItem(String name, Block block) {
+        Registry.register(Registries.ITEM, Identifier.of(LudwigsMysteriousWorld.MOD_ID, name),
+                new BlockItem(block, new Item.Settings().useBlockPrefixedTranslationKey()
+                        .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(LudwigsMysteriousWorld.MOD_ID, name)))));
     }
 //    --Original--
 //    private static void registerBlockItem(String name, Block block){
@@ -78,15 +133,10 @@ public class ModBlocks {
         LudwigsMysteriousWorld.LOGGER.info("Registering Mod Blocks for " + LudwigsMysteriousWorld.MOD_ID);
 
         // add to group
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
-                .register(entries -> {
-            entries.add(ModBlocks.WHITE_DIAMOND_BLOCK);
-        });
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL)
-                .register(entries -> {
-                    entries.add(ModBlocks.DEEPSLATE_WHITE_DIAMOND_ORE);
-                    entries.add(ModBlocks.WHITE_DIAMOND_ORE);
-                });
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
+//                .register(entries -> {
+//                    entries.add(ModBlocks.WHITE_DIAMOND_BLOCK);
+//        });
     }
 }
 

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "ludwigs-mysterious-world:white_diamond_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "ludwigs-mysterious-world:white_diamond"
+  }
+}

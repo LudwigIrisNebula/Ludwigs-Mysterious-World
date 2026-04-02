@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DD ",
+    "DS ",
+    " S "
+  ],
+  "key": {
+    "D": "ludwigs-mysterious-world:white_diamond",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "count": 1,
+    "id": "ludwigs-mysterious-world:white_diamond_axe"
+  }
+}

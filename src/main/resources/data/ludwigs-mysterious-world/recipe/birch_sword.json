@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " B ",
+    " S "
+  ],
+  "key": {
+    "B": "minecraft:birch_planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "count": 1,
+    "id": "ludwigs-mysterious-world:birch_sword"
+  }
+}

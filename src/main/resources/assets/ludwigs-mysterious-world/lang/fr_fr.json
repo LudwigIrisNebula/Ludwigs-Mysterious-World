@@ -1,13 +1,46 @@
 {
+  "itemgroup.ludwigsmysteriousworld.nature_of_the_world": "Nature du Monde",
+  "itemgroup.ludwigsmysteriousworld.materials_and_resources": "Matériaux et Ressources",
+  "itemgroup.ludwigsmysteriousworld.ludwigs_tools": "Outils de Ludwig",
+  "itemgroup.ludwigsmysteriousworld.ludwigs_equipment": "Équipement de Ludwig",
+  "itemgroup.ludwigsmysteriousworld.ludwigs_archive": "Archives de Ludwig",
+  "itemgroup.ludwigsmysteriousworld.the_heart_of_the_world": "Le Cœur du Monde",
+  "itemgroup.ludwigsmysteriousworld.starbound_relics": "Reliques Stellaires",
+
+
+
   "item.ludwigs-mysterious-world.ludwigs_iris_picture": "La photo d'iris de Ludwig",
 
+
   "item.ludwigs-mysterious-world.birch_sword": "Épée en bouleau",
+
+  "item.ludwigs-mysterious-world.white_diamond_sword": "Épée en diamant blanc",
+  "item.ludwigs-mysterious-world.white_diamond_axe": "Hache en diamant blanc",
+  "item.ludwigs-mysterious-world.white_diamond_hoe": "Houe en diamant blanc",
+  "item.ludwigs-mysterious-world.white_diamond_pickaxe": "Pioche en diamant blanc",
+  "item.ludwigs-mysterious-world.white_diamond_shovel": "Pelle en diamant blanc",
+
+  "item.ludwigs-mysterious-world.snowflake_obsidian_sword": "Épée en obsidienne flocon",
+  "item.ludwigs-mysterious-world.snowflake_obsidian_axe": "Hache en obsidienne flocon",
+  "item.ludwigs-mysterious-world.snowflake_obsidian_hoe": "Houe en obsidienne flocon",
+  "item.ludwigs-mysterious-world.snowflake_obsidian_pickaxe": "Pioche en obsidienne flocon",
+  "item.ludwigs-mysterious-world.snowflake_obsidian_shovel": "Pelle en obsidienne flocon",
+
+  "item.ludwigs-mysterious-world.mahogany_obsidian_sword": "Épée en obsidienne acajou",
+  "item.ludwigs-mysterious-world.mahogany_obsidian_axe": "Hache en obsidienne acajou",
+  "item.ludwigs-mysterious-world.mahogany_obsidian_hoe": "Houe en obsidienne acajou",
+  "item.ludwigs-mysterious-world.mahogany_obsidian_pickaxe": "Pioche en obsidienne acajou",
+  "item.ludwigs-mysterious-world.mahogany_obsidian_shovel": "Pelle en obsidienne acajou",
+
+
 
   "item.ludwigs-mysterious-world.white_diamond": "Diamant blanc",
 
 
-  "item.ludwigs-mysterious-world.white_diamond_block": "Bloc de diamant blanc",
+  "block.ludwigs-mysterious-world.snowflake_obsidian": "Obsidienne flocon de neige",
 
-  "item.ludwigs-mysterious-world.deepslate_white_diamond_ore": "Minerai de diamant blanc profond",
-  "item.ludwigs-mysterious-world.white_diamond_ore": "Minerai de diamant blanc"
+  "block.ludwigs-mysterious-world.white_diamond_block": "Bloc de diamant blanc",
+
+  "block.ludwigs-mysterious-world.deepslate_white_diamond_ore": "Minerai de diamant blanc profond",
+  "block.ludwigs-mysterious-world.white_diamond_ore": "Minerai de diamant blanc"
 }

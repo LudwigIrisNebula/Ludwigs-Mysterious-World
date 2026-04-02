@@ -1,14 +1,45 @@
 {
+  "itemgroup.ludwigsmysteriousworld.nature_of_the_world": "Naturo de la Mondo",
+  "itemgroup.ludwigsmysteriousworld.materials_and_resources": "Materialoj kaj Rimedoj",
+  "itemgroup.ludwigsmysteriousworld.ludwigs_tools": "Iloj de Ludwig",
+  "itemgroup.ludwigsmysteriousworld.ludwigs_equipment": "Ekipaĵo de Ludwig",
+  "itemgroup.ludwigsmysteriousworld.ludwigs_archive": "Arĥivo de Ludwig",
+  "itemgroup.ludwigsmysteriousworld.the_heart_of_the_world": "Koro de la Mondo",
+  "itemgroup.ludwigsmysteriousworld.starbound_relics": "Stelaj Relikvoj",
+
+
   "item.ludwigs-mysterious-world.ludwigs_iris_picture": "Bildo de la iriso de Ludwig(Ludviko)",
 
+
   "item.ludwigs-mysterious-world.birch_sword": "Betula glavo",
+
+  "item.ludwigs-mysterious-world.white_diamond_sword": "Blanka diamanta glavo",
+  "item.ludwigs-mysterious-world.white_diamond_axe": "Blanka Diamanta Hakilo",
+  "item.ludwigs-mysterious-world.white_diamond_hoe": "Blanka Diamanta Sarkilo",
+  "item.ludwigs-mysterious-world.white_diamond_pickaxe": "Blanka Diamanta Pioĉo",
+  "item.ludwigs-mysterious-world.white_diamond_shovel": "Blanka Diamanta Ŝovelilo",
+
+  "item.ludwigs-mysterious-world.snowflake_obsidian_sword": "Glavo de Neĝfloka Obsidiano",
+  "item.ludwigs-mysterious-world.snowflake_obsidian_axe": "Hakilo de Neĝfloka Obsidiano",
+  "item.ludwigs-mysterious-world.snowflake_obsidian_hoe": "Sarkilo de Neĝfloka Obsidiano",
+  "item.ludwigs-mysterious-world.snowflake_obsidian_pickaxe": "Pikilo de Neĝfloka Obsidiano",
+  "item.ludwigs-mysterious-world.snowflake_obsidian_shovel": "Ŝovelilo de Neĝfloka Obsidiano",
+
+  "item.ludwigs-mysterious-world.mahogany_obsidian_sword": "Mahagona obsidiana glavo",
+  "item.ludwigs-mysterious-world.mahogany_obsidian_axe": "Mahagona obsidiana hakilo",
+  "item.ludwigs-mysterious-world.mahogany_obsidian_hoe": "Mahagona obsidiana sarkilo",
+  "item.ludwigs-mysterious-world.mahogany_obsidian_pickaxe": "Mahagona obsidiana pioĉo",
+  "item.ludwigs-mysterious-world.mahogany_obsidian_shovel": "Mahagona obsidiana ŝovelilo",
+
 
   "item.ludwigs-mysterious-world.white_diamond": "Blanka Diamanto",
 
 
-  "item.ludwigs-mysterious-world.white_diamond_block": "Bloko de Blanka Diamanto",
+  "block.ludwigs-mysterious-world.snowflake_obsidian": "Neĝfloka Obsidiano",
 
-  "item.ludwigs-mysterious-world.deepslate_white_diamond_ore": "Profunde blanka diamanta erco",
-  "item.ludwigs-mysterious-world.white_diamond_ore": "Blanka Diamanta Erco"
+  "block.ludwigs-mysterious-world.white_diamond_block": "Bloko de Blanka Diamanto",
+
+  "block.ludwigs-mysterious-world.deepslate_white_diamond_ore": "Profunde blanka diamanta erco",
+  "block.ludwigs-mysterious-world.white_diamond_ore": "Blanka Diamanta Erco"
 
 }
