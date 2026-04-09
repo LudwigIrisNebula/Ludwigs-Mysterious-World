@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SDS",
+    "SAS"
+  ],
+  "key": {
+    "D": "ludwigs-mysterious-world:green_apple",
+    "A": "minecraft:dandelion",
+    "S": "minecraft:gold_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "ludwigs-mysterious-world:enchanted_idunns_apple"
+  }
+}

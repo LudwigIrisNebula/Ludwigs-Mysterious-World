@@ -1,6 +1,7 @@
 {
   "itemgroup.ludwigsmysteriousworld.nature_of_the_world": "Nature du Monde",
   "itemgroup.ludwigsmysteriousworld.materials_and_resources": "Matériaux et Ressources",
+  "itemgroup.ludwigsmysteriousworld.ludwigs_foods": "Aliments de Ludwig",
   "itemgroup.ludwigsmysteriousworld.ludwigs_tools": "Outils de Ludwig",
   "itemgroup.ludwigsmysteriousworld.ludwigs_equipment": "Équipement de Ludwig",
   "itemgroup.ludwigsmysteriousworld.ludwigs_archive": "Archives de Ludwig",
@@ -10,6 +11,7 @@
 
 
   "item.ludwigs-mysterious-world.ludwigs_iris_picture": "La photo d'iris de Ludwig",
+  "item.ludwigs-mysterious-world.golden_leaf": "Feuille d’or",
 
 
   "item.ludwigs-mysterious-world.birch_sword": "Épée en bouleau",
@@ -32,14 +34,35 @@
   "item.ludwigs-mysterious-world.mahogany_obsidian_pickaxe": "Pioche en obsidienne acajou",
   "item.ludwigs-mysterious-world.mahogany_obsidian_shovel": "Pelle en obsidienne acajou",
 
+  "item.ludwigs-mysterious-world.sheen_obsidian_sword": "Épée en obsidienne à reflets",
+  "item.ludwigs-mysterious-world.sheen_obsidian_axe": "Hache en obsidienne à reflets",
+  "item.ludwigs-mysterious-world.sheen_obsidian_hoe": "Houe en obsidienne à reflets",
+  "item.ludwigs-mysterious-world.sheen_obsidian_pickaxe": "Pioche en obsidienne à reflets",
+  "item.ludwigs-mysterious-world.sheen_obsidian_shovel": "Pelle en obsidienne à reflets",
 
+  "item.ludwigs-mysterious-world.green_obsidian_sword": "Épée en obsidienne verte",
+  "item.ludwigs-mysterious-world.green_obsidian_axe": "Hache en obsidienne verte",
+  "item.ludwigs-mysterious-world.green_obsidian_hoe": "Houe en obsidienne verte",
+  "item.ludwigs-mysterious-world.green_obsidian_pickaxe": "Pioche en obsidienne verte",
+  "item.ludwigs-mysterious-world.green_obsidian_shovel": "Pelle en obsidienne verte",
+
+
+  "item.ludwigs-mysterious-world.green_apple": "Pomme verte",
+  "item.ludwigs-mysterious-world.idunns_apple": "Pomme dorée d’Idunn",
+  "item.ludwigs-mysterious-world.enchanted_idunns_apple": "Pomme dorée enchantée d’Idunn",
 
   "item.ludwigs-mysterious-world.white_diamond": "Diamant blanc",
 
+  "item.ludwigs-mysterious-world.heart_core_fragment": "Fragment du cœur primordial",
+
 
   "block.ludwigs-mysterious-world.snowflake_obsidian": "Obsidienne flocon de neige",
+  "block.ludwigs-mysterious-world.mahogany_obsidian": "Obsidienne acajou",
+  "block.ludwigs-mysterious-world.sheen_obsidian": "Obsidienne à reflets",
+  "block.ludwigs-mysterious-world.green_obsidian": "Obsidienne verte",
 
   "block.ludwigs-mysterious-world.white_diamond_block": "Bloc de diamant blanc",
+  "block.ludwigs-mysterious-world.white_crystal_block": "Bloc de cristal blanc",
 
   "block.ludwigs-mysterious-world.deepslate_white_diamond_ore": "Minerai de diamant blanc profond",
   "block.ludwigs-mysterious-world.white_diamond_ore": "Minerai de diamant blanc"

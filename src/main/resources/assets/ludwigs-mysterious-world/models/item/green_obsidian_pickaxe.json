@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ludwigs-mysterious-world:item/green_obsidian_pickaxe"
+  }
+}

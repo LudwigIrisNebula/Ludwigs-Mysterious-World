@@ -1,6 +1,7 @@
 {
   "itemgroup.ludwigsmysteriousworld.nature_of_the_world": "Nature of the World",
   "itemgroup.ludwigsmysteriousworld.materials_and_resources": "Materials & Resources",
+  "itemgroup.ludwigsmysteriousworld.ludwigs_foods": "Ludwig's Foods",
   "itemgroup.ludwigsmysteriousworld.ludwigs_tools": "Ludwig's Tools",
   "itemgroup.ludwigsmysteriousworld.ludwigs_equipment": "Ludwig's Equipment",
   "itemgroup.ludwigsmysteriousworld.ludwigs_archive": "Ludwig's Archive",
@@ -9,6 +10,7 @@
 
 
   "item.ludwigs-mysterious-world.ludwigs_iris_picture": "Ludwig's iris picture",
+  "item.ludwigs-mysterious-world.golden_leaf": "Golden Leaf",
 
 
   "item.ludwigs-mysterious-world.birch_sword": "Birch Sword",
@@ -31,13 +33,35 @@
   "item.ludwigs-mysterious-world.mahogany_obsidian_pickaxe": "Mahogany Obsidian Pickaxe",
   "item.ludwigs-mysterious-world.mahogany_obsidian_shovel": "Mahogany Obsidian Shovel",
 
+  "item.ludwigs-mysterious-world.sheen_obsidian_sword": "Sheen Obsidian Sword",
+  "item.ludwigs-mysterious-world.sheen_obsidian_axe": "Sheen Obsidian Axe",
+  "item.ludwigs-mysterious-world.sheen_obsidian_hoe": "Sheen Obsidian Hoe",
+  "item.ludwigs-mysterious-world.sheen_obsidian_pickaxe": "Sheen Obsidian Pickaxe",
+  "item.ludwigs-mysterious-world.sheen_obsidian_shovel": "Sheen Obsidian Shovel",
+
+  "item.ludwigs-mysterious-world.green_obsidian_sword": "Green Obsidian Sword",
+  "item.ludwigs-mysterious-world.green_obsidian_axe": "Green Obsidian Axe",
+  "item.ludwigs-mysterious-world.green_obsidian_hoe": "Green Obsidian Hoe",
+  "item.ludwigs-mysterious-world.green_obsidian_pickaxe": "Green Obsidian Pickaxe",
+  "item.ludwigs-mysterious-world.green_obsidian_shovel": "Green Obsidian Shovel",
+
+
+  "item.ludwigs-mysterious-world.green_apple": "Green Apple",
+  "item.ludwigs-mysterious-world.idunns_apple": "Idunn's Golden Apple",
+  "item.ludwigs-mysterious-world.enchanted_idunns_apple": "Enchanted Idunn's Golden Apple",
 
   "item.ludwigs-mysterious-world.white_diamond": "White Diamond",
 
+  "item.ludwigs-mysterious-world.heart_core_fragment": "Heart Core Fragment",
+
 
   "block.ludwigs-mysterious-world.snowflake_obsidian": "Snowflake Obsidian",
+  "block.ludwigs-mysterious-world.mahogany_obsidian": "Mahogany Obsidian",
+  "block.ludwigs-mysterious-world.sheen_obsidian": "Sheen Obsidian",
+  "block.ludwigs-mysterious-world.green_obsidian": "Green Obsidian",
 
   "block.ludwigs-mysterious-world.white_diamond_block": "Block of White Diamond",
+  "block.ludwigs-mysterious-world.white_crystal_block": "Block of White Crystal",
 
   "block.ludwigs-mysterious-world.deepslate_white_diamond_ore": "Deepslate White Diamond Ore",
   "block.ludwigs-mysterious-world.white_diamond_ore": "White Diamond Ore"

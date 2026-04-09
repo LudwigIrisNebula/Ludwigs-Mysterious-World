@@ -1,6 +1,7 @@
 package io.github.ludwigirisnebula.ludwigsmysteriousworld.block;
 
 import io.github.ludwigirisnebula.ludwigsmysteriousworld.LudwigsMysteriousWorld;
+import io.github.ludwigirisnebula.ludwigsmysteriousworld.block.custom.WhiteCrystalBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
@@ -41,6 +42,7 @@ public class ModBlocks {
 //        );
     //  Nature
         //    Obsidian
+    //TODO: Add texture
     public static final Block SNOWFLAKE_OBSIDIAN =
         registerBlock("snowflake_obsidian",
                 properties -> new Block(
@@ -50,10 +52,30 @@ public class ModBlocks {
                                 .requiresTool()
                                 .sounds(BlockSoundGroup.STONE)
                                 .mapColor(MapColor.BLACK)
-                ));
+        ));//done
     public static final Block MAHOGANY_OBSIDIAN =
-            registerBlock("mahogany_obsidian",
-                    properties -> new Block(
+        registerBlock("mahogany_obsidian",
+                properties -> new Block(
+                        properties
+                                .instrument(NoteBlockInstrument.BASEDRUM)
+                                .strength(50.0F, 1200.0F) // Obsidian level
+                                .requiresTool()
+                                .sounds(BlockSoundGroup.STONE)
+                                .mapColor(MapColor.BLACK)
+        ));//done
+    public static final Block SHEEN_OBSIDIAN =
+            registerBlock("sheen_obsidian",
+                    properties ->new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    ));//done
+    public static final Block GREEN_OBSIDIAN =
+            registerBlock("green_obsidian",
+                    properties ->new Block(
                             properties
                                     .instrument(NoteBlockInstrument.BASEDRUM)
                                     .strength(50.0F, 1200.0F) // Obsidian level
@@ -61,6 +83,21 @@ public class ModBlocks {
                                     .sounds(BlockSoundGroup.STONE)
                                     .mapColor(MapColor.BLACK)
                     ));
+
+        //     Mushroom
+//    TODO: Wait to add this
+//    public static final Block MAHOGANY_OBSIDIAN =
+//            registerBlock("mahogany_obsidian",
+//                    properties -> new Block(
+//                            properties
+//                                    .instrument(NoteBlockInstrument.BASEDRUM)
+//                                    .strength(50.0F, 1200.0F) // Obsidian level
+//                                    .requiresTool()
+//                                    .sounds(BlockSoundGroup.STONE)
+//                                    .mapColor(MapColor.BLACK)
+//                    ));
+
+
 
         //    Ore
     public static final Block DEEPSLATE_WHITE_DIAMOND_ORE =
@@ -92,7 +129,13 @@ public class ModBlocks {
 //            );
 
 
-
+//  Special Block
+//    TODO: add texture
+    public static final Block WHITE_CRYSTAL_BLOCK = registerBlock("white_crystal_block",
+        properties -> new WhiteCrystalBlock(properties
+                .strength(1f)
+                .requiresTool()
+        ));
 
 
 

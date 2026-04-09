@@ -3,7 +3,11 @@
   "values": [
     "ludwigs-mysterious-world:white_diamond_block",
     "ludwigs-mysterious-world:white_diamond_ore",
+    "ludwigs-mysterious-world:white_crystal_block",
     "ludwigs-mysterious-world:deepslate_white_diamond_ore",
-    "ludwigs-mysterious-world:snowflake_obsidian"
+    "ludwigs-mysterious-world:snowflake_obsidian",
+    "ludwigs-mysterious-world:mahogany_obsidian",
+    "ludwigs-mysterious-world:sheen_obsidian",
+    "ludwigs-mysterious-world:green_obsidian"
   ]
 }

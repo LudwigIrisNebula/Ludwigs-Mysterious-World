@@ -5,6 +5,7 @@ import io.github.ludwigirisnebula.ludwigsmysteriousworld.item.ModItemGroups;
 import io.github.ludwigirisnebula.ludwigsmysteriousworld.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,5 +26,10 @@ public class LudwigsMysteriousWorld implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+
+//		fuel
+		FuelRegistryEvents.BUILD.register((builder, context) -> {
+			builder.add(ModItems.HEART_CORE_FRAGMENT, 70230);
+		});
 	}
 }

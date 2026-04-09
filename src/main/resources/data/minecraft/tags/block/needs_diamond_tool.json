@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "ludwigs-mysterious-world:snowflake_obsidian"
+    "ludwigs-mysterious-world:snowflake_obsidian",
+    "ludwigs-mysterious-world:mahogany_obsidian",
+    "ludwigs-mysterious-world:sheen_obsidian",
+    "ludwigs-mysterious-world:green_obsidian"
   ]
 }

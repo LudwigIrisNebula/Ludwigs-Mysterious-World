@@ -1,6 +1,7 @@
 package io.github.ludwigirisnebula.ludwigsmysteriousworld.item;
 
 import io.github.ludwigirisnebula.ludwigsmysteriousworld.LudwigsMysteriousWorld;
+import io.github.ludwigirisnebula.ludwigsmysteriousworld.item.custom.GoldenLeafItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -52,11 +53,51 @@ public class ModItems {
             10,
             ItemTags.DIAMOND_TOOL_MATERIALS //Wait to change
     );
+//    TODO: Wait to change
+    public static final ToolMaterial SHEEN_OBSIDIAN_TOOL_MATERIAL = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
+            2100,
+            8.8F,           // (a little bit higher than snowflake obsidian)
+            2.8F,
+            10,
+            ItemTags.DIAMOND_TOOL_MATERIALS //Wait to change
+    );
+    public static final ToolMaterial GREEN_OBSIDIAN_TOOL_MATERIAL = new ToolMaterial(
+            BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
+            1680,      // low
+            9.4F,      // fastest
+            2.6F,      // low
+            14,        // high
+            ItemTags.DIAMOND_TOOL_MATERIALS //Wait to change
+    );
 
 
 
 //    Items
+    // Foods
+//    TODO: add texture
+    public static final Item GREEN_APPLE = registerItem(
+            "green_apple", settings -> new Item(settings
+                    .food(ModFoodComponents.GREEN_APPLE))
+    );//done
+    public static final Item IDUNNS_APPLE = registerItem(
+            "idunns_apple", settings -> new Item(settings
+                    .food(ModFoodComponents.IDUNNS_APPLE,
+                            ModFoodComponents.IDUNNS_APPLE_EFFECT))
+    );
+    public static final Item ENCHANTED_IDUNNS_APPLE = registerItem(
+            "enchanted_idunns_apple", settings -> new Item(settings
+                    .food(ModFoodComponents.ENCHANTED_IDUNNS_APPLE,
+                            ModFoodComponents.ENCHANTED_IDUNNS_APPLE_EFFECT))
+    );
+
     // INGREDIENTS
+//        fuel
+//    TODO: add texture
+    public static final Item HEART_CORE_FRAGMENT = registerItem(
+            "heart_core_fragment", Item::new
+    );
+//        ore
     public static final Item WHITE_DIAMOND = registerItem(
             "white_diamond", Item::new
 );
@@ -112,15 +153,15 @@ public class ModItems {
             ));
 
     // Mahogany Obsidian
-//        TODO: texture, lang
+//        TODO: texture
     public static final Item MAHOGANY_OBSIDIAN_SWORD = registerItem(
             "mahogany_obsidian_sword", setting -> new Item(setting
                     .sword(MAHOGANY_OBSIDIAN_TOOL_MATERIAL, 3.0F, -2.4F)
-            ));
+            ));//done
     public static final Item MAHOGANY_OBSIDIAN_AXE = registerItem(
             "mahogany_obsidian_axe", setting -> new Item(setting
                     .axe(MAHOGANY_OBSIDIAN_TOOL_MATERIAL, 5.0F, -3.0F)
-            ));
+            ));//done
     public static final Item MAHOGANY_OBSIDIAN_HOE = registerItem(
             "mahogany_obsidian_hoe", setting -> new Item(setting
                     .hoe(MAHOGANY_OBSIDIAN_TOOL_MATERIAL, -3.0F, 0.0F)
@@ -128,10 +169,56 @@ public class ModItems {
     public static final Item MAHOGANY_OBSIDIAN_PICKAXE = registerItem(
             "mahogany_obsidian_pickaxe", setting -> new Item(setting
                     .pickaxe(MAHOGANY_OBSIDIAN_TOOL_MATERIAL, 1.0F, -2.8F)
-            ));
+            ));//done
     public static final Item MAHOGANY_OBSIDIAN_SHOVEL = registerItem(
             "mahogany_obsidian_shovel", setting -> new Item(setting
                     .shovel(MAHOGANY_OBSIDIAN_TOOL_MATERIAL, 1.5F, -3.0F)
+            ));//done
+
+    // Green Obsidian
+//        TODO: texture
+    public static final Item GREEN_OBSIDIAN_SWORD = registerItem(
+            "green_obsidian_sword", setting -> new Item(setting
+                    .sword(GREEN_OBSIDIAN_TOOL_MATERIAL, 3.0F, -2.4F)
+            ));
+    public static final Item GREEN_OBSIDIAN_AXE = registerItem(
+            "green_obsidian_axe", setting -> new Item(setting
+                    .axe(GREEN_OBSIDIAN_TOOL_MATERIAL, 5.0F, -3.0F)
+            ));
+    public static final Item GREEN_OBSIDIAN_HOE = registerItem(
+            "green_obsidian_hoe", setting -> new Item(setting
+                    .hoe(GREEN_OBSIDIAN_TOOL_MATERIAL, -3.0F, 0.0F)
+            ));
+    public static final Item GREEN_OBSIDIAN_PICKAXE = registerItem(
+            "green_obsidian_pickaxe", setting -> new Item(setting
+                    .pickaxe(GREEN_OBSIDIAN_TOOL_MATERIAL, 1.0F, -2.8F)
+            ));
+    public static final Item GREEN_OBSIDIAN_SHOVEL = registerItem(
+            "green_obsidian_shovel", setting -> new Item(setting
+                    .shovel(GREEN_OBSIDIAN_TOOL_MATERIAL, 1.5F, -3.0F)
+            ));
+
+    // Sheen Obsidian
+//        TODO: texture
+    public static final Item SHEEN_OBSIDIAN_SWORD = registerItem(
+            "sheen_obsidian_sword", setting -> new Item(setting
+                    .sword(SHEEN_OBSIDIAN_TOOL_MATERIAL, 3.0F, -2.4F)
+            ));
+    public static final Item SHEEN_OBSIDIAN_AXE = registerItem(
+            "sheen_obsidian_axe", setting -> new Item(setting
+                    .axe(SHEEN_OBSIDIAN_TOOL_MATERIAL, 5.0F, -3.0F)
+            ));
+    public static final Item SHEEN_OBSIDIAN_HOE = registerItem(
+            "sheen_obsidian_hoe", setting -> new Item(setting
+                    .hoe(SHEEN_OBSIDIAN_TOOL_MATERIAL, -3.0F, 0.0F)
+            ));
+    public static final Item SHEEN_OBSIDIAN_PICKAXE = registerItem(
+            "sheen_obsidian_pickaxe", setting -> new Item(setting
+                    .pickaxe(SHEEN_OBSIDIAN_TOOL_MATERIAL, 1.0F, -2.8F)
+            ));
+    public static final Item SHEEN_OBSIDIAN_SHOVEL = registerItem(
+            "sheen_obsidian_shovel", setting -> new Item(setting
+                    .shovel(SHEEN_OBSIDIAN_TOOL_MATERIAL, 1.5F, -3.0F)
             ));
 
 
@@ -149,6 +236,9 @@ public class ModItems {
     // Special Items
     public static final Item LUDWIGS_IRIS_PICTURE = registerItem(
             "ludwigs_iris_picture", Item::new
+    );
+    public static final Item GOLDEN_LEAF = registerItem(
+            "golden_leaf", GoldenLeafItem::new
     );
 //                .registryKey(RegistryKey.of(
 //                        RegistryKeys.ITEM,

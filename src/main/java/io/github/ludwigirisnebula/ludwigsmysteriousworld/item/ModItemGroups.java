@@ -25,9 +25,16 @@ public class ModItemGroups {
 //                        White Diamond
                         entries.add(ModBlocks.WHITE_DIAMOND_ORE);
                         entries.add(ModBlocks.DEEPSLATE_WHITE_DIAMOND_ORE);
+//                        Crystal
+                        entries.add(ModBlocks.WHITE_CRYSTAL_BLOCK);
 //                        Obsidian
                         entries.add(ModBlocks.SNOWFLAKE_OBSIDIAN);
                         entries.add(ModBlocks.MAHOGANY_OBSIDIAN);
+                        entries.add(ModBlocks.SHEEN_OBSIDIAN);
+                        entries.add(ModBlocks.GREEN_OBSIDIAN);
+//                        Plant
+    //                        Food
+                        entries.add(ModItems.GREEN_APPLE);
 
                     })
                     .build()
@@ -45,9 +52,32 @@ public static final ItemGroup MATERIALS_AND_RESOURCES = Registry.register(Regist
 //                    White Diamond
                     entries.add(ModItems.WHITE_DIAMOND);
                     entries.add(ModBlocks.WHITE_DIAMOND_BLOCK);
+//                    Crystal
+                    entries.add(ModBlocks.WHITE_CRYSTAL_BLOCK);
 //                    Obsidian
                     entries.add(ModBlocks.SNOWFLAKE_OBSIDIAN);
                     entries.add(ModBlocks.MAHOGANY_OBSIDIAN);
+                    entries.add(ModBlocks.SHEEN_OBSIDIAN);
+                    entries.add(ModBlocks.GREEN_OBSIDIAN);
+//                    Heart
+                    entries.add(ModItems.HEART_CORE_FRAGMENT);
+
+                })
+                .build()
+);
+
+
+
+//    Foods
+public static final ItemGroup LUDWIGS_FOODS = Registry.register(Registries.ITEM_GROUP,
+        Identifier.of(LudwigsMysteriousWorld.MOD_ID, "ludwigs_foods"),
+        FabricItemGroup.builder()
+                .icon(() -> new ItemStack(ModItems.GREEN_APPLE))
+                .displayName(Text.translatable("itemgroup.ludwigsmysteriousworld.ludwigs_foods"))
+                .entries((displayContext, entries) -> {
+                    entries.add(ModItems.GREEN_APPLE);
+                    entries.add(ModItems.IDUNNS_APPLE);
+                    entries.add(ModItems.ENCHANTED_IDUNNS_APPLE);
 
                 })
                 .build()
@@ -81,6 +111,18 @@ public static final ItemGroup LUDWIGS_TOOLS = Registry.register(Registries.ITEM_
                     entries.add(ModItems.MAHOGANY_OBSIDIAN_PICKAXE);
                     entries.add(ModItems.MAHOGANY_OBSIDIAN_SHOVEL);
                     entries.add(ModItems.MAHOGANY_OBSIDIAN_HOE);
+//                    Sheen Obsidian
+                    entries.add(ModItems.SHEEN_OBSIDIAN_SWORD);
+                    entries.add(ModItems.SHEEN_OBSIDIAN_AXE);
+                    entries.add(ModItems.SHEEN_OBSIDIAN_PICKAXE);
+                    entries.add(ModItems.SHEEN_OBSIDIAN_SHOVEL);
+                    entries.add(ModItems.SHEEN_OBSIDIAN_HOE);
+//                    Green Obsidian
+                    entries.add(ModItems.GREEN_OBSIDIAN_SWORD);
+                    entries.add(ModItems.GREEN_OBSIDIAN_AXE);
+                    entries.add(ModItems.GREEN_OBSIDIAN_PICKAXE);
+                    entries.add(ModItems.GREEN_OBSIDIAN_SHOVEL);
+                    entries.add(ModItems.GREEN_OBSIDIAN_HOE);
 
 //                    Birch
                     entries.add(ModItems.BIRCH_SWORD);
@@ -113,6 +155,7 @@ public static final ItemGroup LUDWIGS_ARCHIVE = Registry.register(Registries.ITE
                 .displayName(Text.translatable("itemgroup.ludwigsmysteriousworld.ludwigs_archive"))
                 .entries((displayContext, entries) -> {
                     entries.add(ModItems.LUDWIGS_IRIS_PICTURE);
+                    entries.add(ModItems.GOLDEN_LEAF);
 
                 })
                 .build()

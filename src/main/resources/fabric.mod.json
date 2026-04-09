@@ -1,11 +1,12 @@
 {
 	"schemaVersion": 1,
 	"id": "ludwigs-mysterious-world",
-	"version": "${version}",
+	"version": "0.1",
 	"name": "Ludwig's Mysterious World",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description":
+		"Greetings! Welcome to this world.",
 	"authors": [
-		"Me!"
+		"Ludwig IrisNebula(CangLingYi)"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

@@ -1,6 +1,7 @@
 {
   "itemgroup.ludwigsmysteriousworld.nature_of_the_world": "Naturo de la Mondo",
   "itemgroup.ludwigsmysteriousworld.materials_and_resources": "Materialoj kaj Rimedoj",
+  "itemgroup.ludwigsmysteriousworld.ludwigs_foods": "Manĝaĵoj de Ludwig",
   "itemgroup.ludwigsmysteriousworld.ludwigs_tools": "Iloj de Ludwig",
   "itemgroup.ludwigsmysteriousworld.ludwigs_equipment": "Ekipaĵo de Ludwig",
   "itemgroup.ludwigsmysteriousworld.ludwigs_archive": "Arĥivo de Ludwig",
@@ -9,6 +10,7 @@
 
 
   "item.ludwigs-mysterious-world.ludwigs_iris_picture": "Bildo de la iriso de Ludwig(Ludviko)",
+  "item.ludwigs-mysterious-world.golden_leaf": "Ora Folio",
 
 
   "item.ludwigs-mysterious-world.birch_sword": "Betula glavo",
@@ -31,13 +33,35 @@
   "item.ludwigs-mysterious-world.mahogany_obsidian_pickaxe": "Mahagona obsidiana pioĉo",
   "item.ludwigs-mysterious-world.mahogany_obsidian_shovel": "Mahagona obsidiana ŝovelilo",
 
+  "item.ludwigs-mysterious-world.sheen_obsidian_sword": "Brila obsidiana glavo",
+  "item.ludwigs-mysterious-world.sheen_obsidian_axe": "Brila obsidiana hakilo",
+  "item.ludwigs-mysterious-world.sheen_obsidian_hoe": "Brila obsidiana sarkilo",
+  "item.ludwigs-mysterious-world.sheen_obsidian_pickaxe": "Brila obsidiana pioĉo",
+  "item.ludwigs-mysterious-world.sheen_obsidian_shovel": "Brila obsidiana ŝovelilo",
+
+  "item.ludwigs-mysterious-world.green_obsidian_sword": "Verda obsidiana glavo",
+  "item.ludwigs-mysterious-world.green_obsidian_axe": "Verda obsidiana hakilo",
+  "item.ludwigs-mysterious-world.green_obsidian_hoe": "Verda obsidiana sarkilo",
+  "item.ludwigs-mysterious-world.green_obsidian_pickaxe": "Verda obsidiana pioĉo",
+  "item.ludwigs-mysterious-world.green_obsidian_shovel": "Verda obsidiana ŝovelilo",
+
+
+  "item.ludwigs-mysterious-world.green_apple": "Verda pomo",
+  "item.ludwigs-mysterious-world.idunns_apple": "Ora pomo de Idunn",
+  "item.ludwigs-mysterious-world.enchanted_idunns_apple": "Sorĉita ora pomo de Idunn"
 
   "item.ludwigs-mysterious-world.white_diamond": "Blanka Diamanto",
 
+  "item.ludwigs-mysterious-world.heart_core_fragment": "Fragmento de la kora kerno",
+
 
   "block.ludwigs-mysterious-world.snowflake_obsidian": "Neĝfloka Obsidiano",
+  "block.ludwigs-mysterious-world.mahogany_obsidian": "Mahagona obsidiano",
+  "block.ludwigs-mysterious-world.sheen_obsidian": "Brila obsidiano",
+  "block.ludwigs-mysterious-world.green_obsidian": "Verda obsidiano",
 
   "block.ludwigs-mysterious-world.white_diamond_block": "Bloko de Blanka Diamanto",
+  "block.ludwigs-mysterious-world.white_crystal_block": "Bloko de Blanka Kristalo",
 
   "block.ludwigs-mysterious-world.deepslate_white_diamond_ore": "Profunde blanka diamanta erco",
   "block.ludwigs-mysterious-world.white_diamond_ore": "Blanka Diamanta Erco"
