@@ -41,6 +41,86 @@ public class ModBlocks {
 //                .slipperiness(0.75F) //有点滑
 //        );
     //  Nature
+        //    Stone
+    //TODO: Add texture & Change it
+    public static final Block BLUE_STONE =
+            registerBlock("blue_stone",
+                    properties -> new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    ));
+    public static final Block SHALE =
+            registerBlock("shale",
+                    properties -> new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    )); //页岩
+    public static final Block RHYOLITE =
+            registerBlock("rhyolite",
+                    properties -> new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    )); //流纹岩
+    public static final Block SERPENTINITE =
+            registerBlock("serpentinite",
+                    properties -> new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    )); //蛇纹岩
+    public static final Block GNEISS =
+            registerBlock("gneiss",
+                    properties -> new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    )); //片麻岩
+            //       Eyestone
+//                TODO: add texture & change it
+    public static final Block WHITE_EYESTONE_BLOCK =
+        registerBlock("white_eyestone_block",
+            properties -> new Block(
+                properties
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(50.0F, 1200.0F) // Obsidian level
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)
+                    .mapColor(MapColor.BLACK)
+            ));
+//                TODO: add texture & change it
+    public static final Block FLUORESCENT_EYESTONE_BLOCK =
+        registerBlock("fluorescent_eyestone_block",
+            properties -> new Block(
+                properties
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(50.0F, 1200.0F) // Obsidian level
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)
+                    .mapColor(MapColor.BLACK)
+            ));
+
+
+        //    Soil
+
+
         //    Obsidian
     //TODO: Add texture
     public static final Block SNOWFLAKE_OBSIDIAN =
@@ -83,6 +163,16 @@ public class ModBlocks {
                                     .sounds(BlockSoundGroup.STONE)
                                     .mapColor(MapColor.BLACK)
                     ));
+    public static final Block PURPLE_OBSIDIAN =
+            registerBlock("purple_obsidian",
+                    properties ->new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    ));
 
         //     Mushroom
 //    TODO: Wait to add this
@@ -100,6 +190,7 @@ public class ModBlocks {
 
 
         //    Ore
+    //            White Diamond
     public static final Block DEEPSLATE_WHITE_DIAMOND_ORE =
             registerBlock("deepslate_white_diamond_ore",
                     properties -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
@@ -112,6 +203,90 @@ public class ModBlocks {
             ));
     public static final Block WHITE_DIAMOND_ORE =
             registerBlock("white_diamond_ore",
+                    properties -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                            properties
+                                    .strength(3.0F, 3.0F)
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.GRAY)
+                    ));
+//                  Black Diamond
+//    TODO: Wait to change
+    public static final Block DEEPSLATE_BLACK_DIAMOND_ORE =
+            registerBlock("deepslate_black_diamond_ore",
+                    properties -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    properties
+                            .instrument(NoteBlockInstrument.BASEDRUM)
+                            .strength(4.5F, 3.0F)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.DEEPSLATE)
+                            .mapColor(MapColor.GRAY)
+            ));
+    public static final Block BLACK_DIAMOND_ORE =
+            registerBlock("black_diamond_ore",
+                    properties -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                            properties
+                                    .strength(3.0F, 3.0F)
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.GRAY)
+                    ));
+//                  Pink Diamond
+//    TODO: Wait to change
+    public static final Block DEEPSLATE_PINK_DIAMOND_ORE =
+            registerBlock("deepslate_pink_diamond_ore",
+                    properties -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    properties
+                            .instrument(NoteBlockInstrument.BASEDRUM)
+                            .strength(4.5F, 3.0F)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.DEEPSLATE)
+                            .mapColor(MapColor.GRAY)
+            ));
+    public static final Block PINK_DIAMOND_ORE =
+            registerBlock("pink_diamond_ore",
+                    properties -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                            properties
+                                    .strength(3.0F, 3.0F)
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.GRAY)
+                    ));
+//                  Red Diamond
+//    TODO: Wait to change
+    public static final Block DEEPSLATE_RED_DIAMOND_ORE =
+            registerBlock("deepslate_red_diamond_ore",
+                    properties -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    properties
+                            .instrument(NoteBlockInstrument.BASEDRUM)
+                            .strength(4.5F, 3.0F)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.DEEPSLATE)
+                            .mapColor(MapColor.GRAY)
+            ));
+    public static final Block RED_DIAMOND_ORE =
+            registerBlock("red_diamond_ore",
+                    properties -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                            properties
+                                    .strength(3.0F, 3.0F)
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.GRAY)
+                    ));
+//                  Rainbow Diamond
+//    TODO: Wait to change
+    public static final Block DEEPSLATE_RAINBOW_DIAMOND_ORE =
+            registerBlock("deepslate_rainbow_diamond_ore",
+                    properties -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    properties
+                            .instrument(NoteBlockInstrument.BASEDRUM)
+                            .strength(4.5F, 3.0F)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.DEEPSLATE)
+                            .mapColor(MapColor.GRAY)
+            ));
+    public static final Block RAINBOW_DIAMOND_ORE =
+            registerBlock("rainbow_diamond_ore",
                     properties -> new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                             properties
                                     .strength(3.0F, 3.0F)
@@ -136,6 +311,17 @@ public class ModBlocks {
                 .strength(1f)
                 .requiresTool()
         ));
+//    TODO: wait to change it
+    public static final Block CURSED_OBSIDIAN =
+            registerBlock("cursed_obsidian",
+                    properties ->new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    ));
 
 
 

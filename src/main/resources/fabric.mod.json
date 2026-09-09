@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "ludwigs-mysterious-world",
-	"version": "0.1",
+	"version": "0.1.0",
 	"name": "Ludwig's Mysterious World",
 	"description":
 		"Greetings! Welcome to this world.",
@@ -9,7 +9,7 @@
 		"Ludwig IrisNebula(CangLingYi)"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "https://irisnebulaintheclock.neocities.org/",
 		"sources": "https://github.com/LudwigIrisNebula/Ludwigs-Mysterious-World"
 	},
 	"license": "MIT",

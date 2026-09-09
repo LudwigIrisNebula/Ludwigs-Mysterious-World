@@ -8,6 +8,9 @@
   "itemgroup.ludwigsmysteriousworld.the_heart_of_the_world": "Koro de la Mondo",
   "itemgroup.ludwigsmysteriousworld.starbound_relics": "Stelaj Relikvoj",
 
+  "tooltip.ludwigsmysteriousworld.green_apple.tooltip": "",
+  "tooltip.ludwigsmysteriousworld.idunns_apple.tooltip": "",
+  "tooltip.ludwigsmysteriousworld.enchanted_idunns_apple.tooltip": "",
 
   "item.ludwigs-mysterious-world.ludwigs_iris_picture": "Bildo de la iriso de Ludwig(Ludviko)",
   "item.ludwigs-mysterious-world.golden_leaf": "Ora Folio",
@@ -20,6 +23,21 @@
   "item.ludwigs-mysterious-world.white_diamond_hoe": "Blanka Diamanta Sarkilo",
   "item.ludwigs-mysterious-world.white_diamond_pickaxe": "Blanka Diamanta Pioĉo",
   "item.ludwigs-mysterious-world.white_diamond_shovel": "Blanka Diamanta Ŝovelilo",
+  "item.ludwigs-mysterious-world.pink_diamond_sword": "",
+  "item.ludwigs-mysterious-world.pink_diamond_axe": "",
+  "item.ludwigs-mysterious-world.pink_diamond_hoe": "",
+  "item.ludwigs-mysterious-world.pink_diamond_pickaxe": "",
+  "item.ludwigs-mysterious-world.pink_diamond_shovel": "",
+  "item.ludwigs-mysterious-world.red_diamond_sword": "",
+  "item.ludwigs-mysterious-world.red_diamond_axe": "",
+  "item.ludwigs-mysterious-world.red_diamond_hoe": "",
+  "item.ludwigs-mysterious-world.red_diamond_pickaxe": "",
+  "item.ludwigs-mysterious-world.red_diamond_shovel": "",
+  "item.ludwigs-mysterious-world.rainbow_diamond_sword": "",
+  "item.ludwigs-mysterious-world.rainbow_diamond_axe": "",
+  "item.ludwigs-mysterious-world.rainbow_diamond_hoe": "",
+  "item.ludwigs-mysterious-world.rainbow_diamond_pickaxe": "",
+  "item.ludwigs-mysterious-world.rainbow_diamond_shovel": "",
 
   "item.ludwigs-mysterious-world.snowflake_obsidian_sword": "Glavo de Neĝfloka Obsidiano",
   "item.ludwigs-mysterious-world.snowflake_obsidian_axe": "Hakilo de Neĝfloka Obsidiano",
@@ -48,7 +66,7 @@
 
   "item.ludwigs-mysterious-world.green_apple": "Verda pomo",
   "item.ludwigs-mysterious-world.idunns_apple": "Ora pomo de Idunn",
-  "item.ludwigs-mysterious-world.enchanted_idunns_apple": "Sorĉita ora pomo de Idunn"
+  "item.ludwigs-mysterious-world.enchanted_idunns_apple": "Sorĉita ora pomo de Idunn",
 
   "item.ludwigs-mysterious-world.white_diamond": "Blanka Diamanto",
 
@@ -62,8 +80,13 @@
 
   "block.ludwigs-mysterious-world.white_diamond_block": "Bloko de Blanka Diamanto",
   "block.ludwigs-mysterious-world.white_crystal_block": "Bloko de Blanka Kristalo",
+  "block.ludwigs-mysterious-world.fluorescent_eyestone_block": "",
+  "block.ludwigs-mysterious-world.white_eyestone_block": "",
 
   "block.ludwigs-mysterious-world.deepslate_white_diamond_ore": "Profunde blanka diamanta erco",
-  "block.ludwigs-mysterious-world.white_diamond_ore": "Blanka Diamanta Erco"
+  "block.ludwigs-mysterious-world.white_diamond_ore": "Blanka Diamanta Erco",
+  "block.ludwigs-mysterious-world.sky_blue_crystal_block": "Block of Sky Blue Crystal",
+  "block.ludwigs-mysterious-world.dark_crystal_block": "Block of Dark Crystal",
+  "block.ludwigs-mysterious-world.shadow_crystal_block": "Block of Shadow Crystal"
 
 }

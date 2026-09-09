@@ -20,7 +20,7 @@ public class ModFoodComponents {
             .build();
     public static final ConsumableComponent IDUNNS_APPLE_EFFECT = ConsumableComponents.food()
             .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(
-                    StatusEffects.REGENERATION, 200, 0), 1.0f))
+                    StatusEffects.REGENERATION, 2000, 0), 1.0f))
             .build();
 
     public static final FoodComponent ENCHANTED_IDUNNS_APPLE = new FoodComponent.Builder()
@@ -30,8 +30,10 @@ public class ModFoodComponents {
             .build();
     public static final ConsumableComponent ENCHANTED_IDUNNS_APPLE_EFFECT = ConsumableComponents.food()
             .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(
-                    StatusEffects.REGENERATION, 200, 1), 1.0f))
+                    StatusEffects.REGENERATION, 2000, 1), 1.0f))
             .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(
                     StatusEffects.ABSORPTION, 2400, 1), 1.0f))
+            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(
+                    StatusEffects.LUCK, 1200, 2), 1.0f))
             .build();
 }

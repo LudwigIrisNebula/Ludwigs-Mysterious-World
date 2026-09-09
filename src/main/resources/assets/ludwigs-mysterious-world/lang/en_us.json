@@ -8,6 +8,10 @@
   "itemgroup.ludwigsmysteriousworld.the_heart_of_the_world": "The Heart of the World",
   "itemgroup.ludwigsmysteriousworld.starbound_relics": "Starbound Relics",
 
+  "tooltip.ludwigsmysteriousworld.green_apple.tooltip": "",
+  "tooltip.ludwigsmysteriousworld.idunns_apple.tooltip": "",
+  "tooltip.ludwigsmysteriousworld.enchanted_idunns_apple.tooltip": "",
+
 
   "item.ludwigs-mysterious-world.ludwigs_iris_picture": "Ludwig's iris picture",
   "item.ludwigs-mysterious-world.golden_leaf": "Golden Leaf",
@@ -20,6 +24,26 @@
   "item.ludwigs-mysterious-world.white_diamond_hoe": "White Diamond Hoe",
   "item.ludwigs-mysterious-world.white_diamond_pickaxe": "White Diamond Pickaxe",
   "item.ludwigs-mysterious-world.white_diamond_shovel": "White Diamond Shovel",
+  "item.ludwigs-mysterious-world.black_diamond_sword": "Black Diamond Sword",
+  "item.ludwigs-mysterious-world.black_diamond_axe": "Black Diamond Axe",
+  "item.ludwigs-mysterious-world.black_diamond_hoe": "Black Diamond Hoe",
+  "item.ludwigs-mysterious-world.black_diamond_pickaxe": "Black Diamond Pickaxe",
+  "item.ludwigs-mysterious-world.black_diamond_shovel": "Black Diamond Shovel",
+  "item.ludwigs-mysterious-world.pink_diamond_sword": "Pink Diamond Sword",
+  "item.ludwigs-mysterious-world.pink_diamond_axe": "Pink Diamond Axe",
+  "item.ludwigs-mysterious-world.pink_diamond_hoe": "Pink Diamond Hoe",
+  "item.ludwigs-mysterious-world.pink_diamond_pickaxe": "Pink Diamond Pickaxe",
+  "item.ludwigs-mysterious-world.pink_diamond_shovel": "Pink Diamond Shovel",
+  "item.ludwigs-mysterious-world.red_diamond_sword": "Red Diamond Sword",
+  "item.ludwigs-mysterious-world.red_diamond_axe": "Red Diamond Axe",
+  "item.ludwigs-mysterious-world.red_diamond_hoe": "Red Diamond Hoe",
+  "item.ludwigs-mysterious-world.red_diamond_pickaxe": "Red Diamond Pickaxe",
+  "item.ludwigs-mysterious-world.red_diamond_shovel": "Red Diamond Shovel",
+  "item.ludwigs-mysterious-world.rainbow_diamond_sword": "Rainbow Diamond Sword",
+  "item.ludwigs-mysterious-world.rainbow_diamond_axe": "Rainbow Diamond Axe",
+  "item.ludwigs-mysterious-world.rainbow_diamond_hoe": "Rainbow Diamond Hoe",
+  "item.ludwigs-mysterious-world.rainbow_diamond_pickaxe": "Rainbow Diamond Pickaxe",
+  "item.ludwigs-mysterious-world.rainbow_diamond_shovel": "Rainbow Diamond Shovel",
 
   "item.ludwigs-mysterious-world.snowflake_obsidian_sword": "Snowflake Obsidian Sword",
   "item.ludwigs-mysterious-world.snowflake_obsidian_axe": "Snowflake Obsidian Axe",
@@ -61,8 +85,20 @@
   "block.ludwigs-mysterious-world.green_obsidian": "Green Obsidian",
 
   "block.ludwigs-mysterious-world.white_diamond_block": "Block of White Diamond",
+  "block.ludwigs-mysterious-world.black_diamond_block": "Block of Black Diamond",
+  "block.ludwigs-mysterious-world.pink_diamond_block": "Block of Pink Diamond",
+  "block.ludwigs-mysterious-world.red_diamond_block": "Block of Red Diamond",
+  "block.ludwigs-mysterious-world.rainbow_diamond_block": "Block of Rainbow Diamond",
   "block.ludwigs-mysterious-world.white_crystal_block": "Block of White Crystal",
 
   "block.ludwigs-mysterious-world.deepslate_white_diamond_ore": "Deepslate White Diamond Ore",
-  "block.ludwigs-mysterious-world.white_diamond_ore": "White Diamond Ore"
+  "block.ludwigs-mysterious-world.white_diamond_ore": "White Diamond Ore",
+  "block.ludwigs-mysterious-world.deepslate_black_diamond_ore": "Deepslate Black Diamond Ore",
+  "block.ludwigs-mysterious-world.black_diamond_ore": "Black Diamond Ore",
+  "block.ludwigs-mysterious-world.deepslate_pink_diamond_ore": "Deepslate Pink Diamond Ore",
+  "block.ludwigs-mysterious-world.pink_diamond_ore": "Pink Diamond Ore",
+  "block.ludwigs-mysterious-world.deepslate_red_diamond_ore": "Deepslate Red Diamond Ore",
+  "block.ludwigs-mysterious-world.red_diamond_ore": "Red Diamond Ore",
+  "block.ludwigs-mysterious-world.deepslate_rainbow_diamond_ore": "Deepslate Rainbow Diamond Ore",
+  "block.ludwigs-mysterious-world.rainbow_diamond_ore": "Rainbow Diamond Ore"
 }
