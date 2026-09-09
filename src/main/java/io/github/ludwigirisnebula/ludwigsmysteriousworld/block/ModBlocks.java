@@ -31,6 +31,34 @@ public class ModBlocks {
                         .mapColor(MapColor.WHITE)
                         .slipperiness(0.75F) //有点滑
                 ));
+//    TODO: add more, and wait to change it
+    public static final Block RED_DIAMOND_BLOCK =
+        registerBlock("red_diamond_block",
+                properties -> new Block(properties
+                        .strength(4f, 3.0F) //破坏时间
+                        .requiresTool() //使用工具挖掘
+                        .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                        .mapColor(MapColor.WHITE)
+                        .slipperiness(0.75F) //有点滑
+                ));
+    public static final Block PINK_DIAMOND_BLOCK =
+        registerBlock("pink_diamond_block",
+                properties -> new Block(properties
+                        .strength(4f, 3.0F) //破坏时间
+                        .requiresTool() //使用工具挖掘
+                        .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                        .mapColor(MapColor.WHITE)
+                        .slipperiness(0.75F) //有点滑
+                ));
+    public static final Block RAINBOW_DIAMOND_BLOCK =
+        registerBlock("rainbow_diamond_block",
+                properties -> new Block(properties
+                        .strength(4f, 3.0F) //破坏时间
+                        .requiresTool() //使用工具挖掘
+                        .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                        .mapColor(MapColor.WHITE)
+                        .slipperiness(0.75F) //有点滑
+                ));
 //    public static final Block WHITE_DIAMOND_BLOCK =
 //        registerBlock("white_diamond_block",
 //        AbstractBlock.Settings.create()
@@ -40,7 +68,112 @@ public class ModBlocks {
 //                .mapColor(MapColor.WHITE)
 //                .slipperiness(0.75F) //有点滑
 //        );
+
+//    Crystal
+//      TODO: Wait to change & add to the lang & add more & add texture
+public static final Block SKY_BLUE_CRYSTAL_BLOCK =
+        registerBlock("sky_blue_crystal_block",
+                properties -> new Block(properties
+                        .strength(4f, 3.0F) //破坏时间
+                        .requiresTool() //使用工具挖掘
+                        .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                        .mapColor(MapColor.WHITE)
+                        .slipperiness(0.75F) //有点滑
+                ));
+
+        //    Bricks
+
+//    TODO: wait to change it
+public static final Block OBSIDIAN_BRICK =
+        registerBlock("obsidian_brick",
+                properties -> new Block(properties
+                        .strength(4f, 3.0F) //破坏时间
+                        .requiresTool() //使用工具挖掘
+                        .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                        .mapColor(MapColor.WHITE)
+                        .slipperiness(0.75F) //有点滑
+                ));
     //  Nature
+        //    Stone
+    //TODO: Add texture & Change it
+    public static final Block BLUE_STONE =
+            registerBlock("blue_stone",
+                    properties -> new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    ));
+    public static final Block SHALE =
+            registerBlock("shale",
+                    properties -> new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    )); //页岩
+    public static final Block RHYOLITE =
+            registerBlock("rhyolite",
+                    properties -> new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    )); //流纹岩
+    public static final Block SERPENTINITE =
+            registerBlock("serpentinite",
+                    properties -> new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    )); //蛇纹岩
+    public static final Block GNEISS =
+            registerBlock("gneiss",
+                    properties -> new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    )); //片麻岩
+            //       Eyestone
+//                TODO: add texture & change it
+    public static final Block WHITE_EYESTONE_BLOCK =
+        registerBlock("white_eyestone_block",
+            properties -> new Block(
+                properties
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(50.0F, 1200.0F) // Obsidian level
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)
+                    .mapColor(MapColor.BLACK)
+            ));
+//                TODO: add texture & change it
+    public static final Block FLUORESCENT_EYESTONE_BLOCK =
+        registerBlock("fluorescent_eyestone_block",
+            properties -> new Block(
+                properties
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .strength(50.0F, 1200.0F) // Obsidian level
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)
+                    .mapColor(MapColor.BLACK)
+            ));
+
+
+        //    Soil
+    
+
         //    Obsidian
     //TODO: Add texture
     public static final Block SNOWFLAKE_OBSIDIAN =
@@ -136,6 +269,17 @@ public class ModBlocks {
                 .strength(1f)
                 .requiresTool()
         ));
+//    TODO: wait to change it
+    public static final Block CURSED_OBSIDIAN =
+            registerBlock("cursed_obsidian",
+                    properties ->new Block(
+                            properties
+                                    .instrument(NoteBlockInstrument.BASEDRUM)
+                                    .strength(50.0F, 1200.0F) // Obsidian level
+                                    .requiresTool()
+                                    .sounds(BlockSoundGroup.STONE)
+                                    .mapColor(MapColor.BLACK)
+                    ));
 
 
 

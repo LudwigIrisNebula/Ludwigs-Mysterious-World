@@ -8,7 +8,9 @@
   "itemgroup.ludwigsmysteriousworld.the_heart_of_the_world": "Le Cœur du Monde",
   "itemgroup.ludwigsmysteriousworld.starbound_relics": "Reliques Stellaires",
 
-
+  "tooltip.ludwigsmysteriousworld.green_apple.tooltip": "",
+  "tooltip.ludwigsmysteriousworld.idunns_apple.tooltip": "",
+  "tooltip.ludwigsmysteriousworld.enchanted_idunns_apple.tooltip": "",
 
   "item.ludwigs-mysterious-world.ludwigs_iris_picture": "La photo d'iris de Ludwig",
   "item.ludwigs-mysterious-world.golden_leaf": "Feuille d’or",
@@ -52,6 +54,10 @@
   "item.ludwigs-mysterious-world.enchanted_idunns_apple": "Pomme dorée enchantée d’Idunn",
 
   "item.ludwigs-mysterious-world.white_diamond": "Diamant blanc",
+  "item.ludwigs-mysterious-world.white_crystal": "",
+  "item.ludwigs-mysterious-world.sky_blue_crystal": "",
+  "item.ludwigs-mysterious-world.white_eyestone_fragment": "",
+  "item.ludwigs-mysterious-world.fluorescent_eyestone_fragment": "",
 
   "item.ludwigs-mysterious-world.heart_core_fragment": "Fragment du cœur primordial",
 
@@ -63,6 +69,8 @@
 
   "block.ludwigs-mysterious-world.white_diamond_block": "Bloc de diamant blanc",
   "block.ludwigs-mysterious-world.white_crystal_block": "Bloc de cristal blanc",
+  "block.ludwigs-mysterious-world.fluorescent_eyestone_block": "",
+  "block.ludwigs-mysterious-world.white_eyestone_block": "",
 
   "block.ludwigs-mysterious-world.deepslate_white_diamond_ore": "Minerai de diamant blanc profond",
   "block.ludwigs-mysterious-world.white_diamond_ore": "Minerai de diamant blanc"

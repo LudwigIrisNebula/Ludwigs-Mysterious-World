@@ -2,6 +2,7 @@ package io.github.ludwigirisnebula.ludwigsmysteriousworld.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.client.gui.tooltip.Tooltip;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -35,9 +36,5 @@ public class WhiteCrystalBlock extends Block {
         super.onSteppedOn(world, pos, state, entity);
     }
 
-    @Override
-    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
 
-        super.appendProperties(builder);
-    }
 }

@@ -27,11 +27,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_WHITE_DIAMOND_ORE);
 //                        Crystal
                         entries.add(ModBlocks.WHITE_CRYSTAL_BLOCK);
-//                        Obsidian
+                        entries.add(ModBlocks.SKY_BLUE_CRYSTAL_BLOCK);
+//                        Stone
+                        entries.add(ModBlocks.BLUE_STONE);
+                        entries.add(ModBlocks.SHALE);
+                        entries.add(ModBlocks.RHYOLITE);
+                        entries.add(ModBlocks.SERPENTINITE);
+                        entries.add(ModBlocks.GNEISS);
+//                          Obsidian
                         entries.add(ModBlocks.SNOWFLAKE_OBSIDIAN);
                         entries.add(ModBlocks.MAHOGANY_OBSIDIAN);
                         entries.add(ModBlocks.SHEEN_OBSIDIAN);
                         entries.add(ModBlocks.GREEN_OBSIDIAN);
+//                          Eyestone
+                        entries.add(ModBlocks.WHITE_EYESTONE_BLOCK);
+                        entries.add(ModBlocks.FLUORESCENT_EYESTONE_BLOCK);
 //                        Plant
     //                        Food
                         entries.add(ModItems.GREEN_APPLE);
@@ -52,15 +62,32 @@ public static final ItemGroup MATERIALS_AND_RESOURCES = Registry.register(Regist
 //                    White Diamond
                     entries.add(ModItems.WHITE_DIAMOND);
                     entries.add(ModBlocks.WHITE_DIAMOND_BLOCK);
+//                    Other Diamonds
+                    entries.add(ModItems.PINK_DIAMOND);
+                    entries.add(ModBlocks.PINK_DIAMOND_BLOCK);
+                    entries.add(ModItems.RED_DIAMOND);
+                    entries.add(ModBlocks.RED_DIAMOND_BLOCK);
+                    entries.add(ModItems.RAINBOW_DIAMOND);
+                    entries.add(ModBlocks.RAINBOW_DIAMOND_BLOCK);
 //                    Crystal
+                    entries.add(ModItems.WHITE_CRYSTAL);
                     entries.add(ModBlocks.WHITE_CRYSTAL_BLOCK);
+                    entries.add(ModItems.SKY_BLUE_CRYSTAL);
+                    entries.add(ModBlocks.SKY_BLUE_CRYSTAL_BLOCK);
 //                    Obsidian
                     entries.add(ModBlocks.SNOWFLAKE_OBSIDIAN);
                     entries.add(ModBlocks.MAHOGANY_OBSIDIAN);
                     entries.add(ModBlocks.SHEEN_OBSIDIAN);
                     entries.add(ModBlocks.GREEN_OBSIDIAN);
+//                    Eyestone
+                    entries.add(ModBlocks.WHITE_EYESTONE_BLOCK);
+                    entries.add(ModItems.WHITE_EYESTONE_FRAGMENT);
+                    entries.add(ModBlocks.FLUORESCENT_EYESTONE_BLOCK);
+                    entries.add(ModItems.FLUORESCENT_EYESTONE_FRAGMENT);
 //                    Heart
                     entries.add(ModItems.HEART_CORE_FRAGMENT);
+//                    Building
+                    entries.add(ModBlocks.OBSIDIAN_BRICK);
 
                 })
                 .build()
@@ -98,7 +125,24 @@ public static final ItemGroup LUDWIGS_TOOLS = Registry.register(Registries.ITEM_
                     entries.add(ModItems.WHITE_DIAMOND_PICKAXE);
                     entries.add(ModItems.WHITE_DIAMOND_SHOVEL);
                     entries.add(ModItems.WHITE_DIAMOND_HOE);
-
+//                    Pink Diamond
+                    entries.add(ModItems.PINK_DIAMOND_SWORD);
+                    entries.add(ModItems.PINK_DIAMOND_AXE);
+                    entries.add(ModItems.PINK_DIAMOND_PICKAXE);
+                    entries.add(ModItems.PINK_DIAMOND_SHOVEL);
+                    entries.add(ModItems.PINK_DIAMOND_HOE);
+//                    Red Diamond
+                    entries.add(ModItems.RED_DIAMOND_SWORD);
+                    entries.add(ModItems.RED_DIAMOND_AXE);
+                    entries.add(ModItems.RED_DIAMOND_PICKAXE);
+                    entries.add(ModItems.RED_DIAMOND_SHOVEL);
+                    entries.add(ModItems.RED_DIAMOND_HOE);
+//                    Rainbow Diamond
+                    entries.add(ModItems.RAINBOW_DIAMOND_SWORD);
+                    entries.add(ModItems.RAINBOW_DIAMOND_AXE);
+                    entries.add(ModItems.RAINBOW_DIAMOND_PICKAXE);
+                    entries.add(ModItems.RAINBOW_DIAMOND_SHOVEL);
+                    entries.add(ModItems.RAINBOW_DIAMOND_HOE);
 //                    Snowflake Obsidian
                     entries.add(ModItems.SNOWFLAKE_OBSIDIAN_SWORD);
                     entries.add(ModItems.SNOWFLAKE_OBSIDIAN_AXE);
@@ -170,7 +214,7 @@ public static final ItemGroup THE_HEART_OF_THE_WORLD = Registry.register(Registr
 //                .icon(() -> new ItemStack(ModItems.LUDWIGS_IRIS_PICTURE)) //Wait to change this
                 .displayName(Text.translatable("itemgroup.ludwigsmysteriousworld.the_heart_of_the_world"))
                 .entries((displayContext, entries) -> {
-
+                    entries.add(ModItems.HEART_CORE_FRAGMENT);
                 })
                 .build()
 );

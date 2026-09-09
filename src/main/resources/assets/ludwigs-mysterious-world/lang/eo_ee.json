@@ -8,6 +8,9 @@
   "itemgroup.ludwigsmysteriousworld.the_heart_of_the_world": "Koro de la Mondo",
   "itemgroup.ludwigsmysteriousworld.starbound_relics": "Stelaj Relikvoj",
 
+  "tooltip.ludwigsmysteriousworld.green_apple.tooltip": "",
+  "tooltip.ludwigsmysteriousworld.idunns_apple.tooltip": "",
+  "tooltip.ludwigsmysteriousworld.enchanted_idunns_apple.tooltip": "",
 
   "item.ludwigs-mysterious-world.ludwigs_iris_picture": "Bildo de la iriso de Ludwig(Ludviko)",
   "item.ludwigs-mysterious-world.golden_leaf": "Ora Folio",
@@ -48,9 +51,13 @@
 
   "item.ludwigs-mysterious-world.green_apple": "Verda pomo",
   "item.ludwigs-mysterious-world.idunns_apple": "Ora pomo de Idunn",
-  "item.ludwigs-mysterious-world.enchanted_idunns_apple": "Sorĉita ora pomo de Idunn"
+  "item.ludwigs-mysterious-world.enchanted_idunns_apple": "Sorĉita ora pomo de Idunn",
 
   "item.ludwigs-mysterious-world.white_diamond": "Blanka Diamanto",
+  "item.ludwigs-mysterious-world.white_crystal": "",
+  "item.ludwigs-mysterious-world.sky_blue_crystal": "",
+  "item.ludwigs-mysterious-world.white_eyestone_fragment": "",
+  "item.ludwigs-mysterious-world.fluorescent_eyestone_fragment": "",
 
   "item.ludwigs-mysterious-world.heart_core_fragment": "Fragmento de la kora kerno",
 
@@ -62,6 +69,8 @@
 
   "block.ludwigs-mysterious-world.white_diamond_block": "Bloko de Blanka Diamanto",
   "block.ludwigs-mysterious-world.white_crystal_block": "Bloko de Blanka Kristalo",
+  "block.ludwigs-mysterious-world.fluorescent_eyestone_block": "",
+  "block.ludwigs-mysterious-world.white_eyestone_block": "",
 
   "block.ludwigs-mysterious-world.deepslate_white_diamond_ore": "Profunde blanka diamanta erco",
   "block.ludwigs-mysterious-world.white_diamond_ore": "Blanka Diamanta Erco"
