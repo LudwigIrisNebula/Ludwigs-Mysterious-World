@@ -20,6 +20,8 @@ import java.util.function.Function;
 
 public class ModBlocks {
 
+//    For test 3
+
 //  Block
     //   Building
     public static final Block WHITE_DIAMOND_BLOCK =
@@ -31,6 +33,43 @@ public class ModBlocks {
                         .mapColor(MapColor.WHITE)
                         .slipperiness(0.75F) //有点滑
                 ));
+    //    TODO: add more, and wait to change it
+    public static final Block RED_DIAMOND_BLOCK =
+            registerBlock("red_diamond_block",
+                    properties -> new Block(properties
+                            .strength(4f, 3.0F) //破坏时间
+                            .requiresTool() //使用工具挖掘
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                            .mapColor(MapColor.WHITE)
+                            .slipperiness(0.75F) //有点滑
+                    ));
+    public static final Block BLACK_DIAMOND_BLOCK =
+            registerBlock("black_diamond_block",
+                    properties -> new Block(properties
+                            .strength(4f, 3.0F) //破坏时间
+                            .requiresTool() //使用工具挖掘
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                            .mapColor(MapColor.WHITE)
+                            .slipperiness(0.75F) //有点滑
+                    ));
+    public static final Block PINK_DIAMOND_BLOCK =
+            registerBlock("pink_diamond_block",
+                    properties -> new Block(properties
+                            .strength(4f, 3.0F) //破坏时间
+                            .requiresTool() //使用工具挖掘
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                            .mapColor(MapColor.WHITE)
+                            .slipperiness(0.75F) //有点滑
+                    ));
+    public static final Block RAINBOW_DIAMOND_BLOCK =
+            registerBlock("rainbow_diamond_block",
+                    properties -> new Block(properties
+                            .strength(4f, 3.0F) //破坏时间
+                            .requiresTool() //使用工具挖掘
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                            .mapColor(MapColor.WHITE)
+                            .slipperiness(0.75F) //有点滑
+                    ));
 //    public static final Block WHITE_DIAMOND_BLOCK =
 //        registerBlock("white_diamond_block",
 //        AbstractBlock.Settings.create()
@@ -40,6 +79,54 @@ public class ModBlocks {
 //                .mapColor(MapColor.WHITE)
 //                .slipperiness(0.75F) //有点滑
 //        );
+
+//    test git
+
+    //    Crystal
+//      TODO: Wait to change & add to the lang & add more & add texture
+    public static final Block SKY_BLUE_CRYSTAL_BLOCK =
+            registerBlock("sky_blue_crystal_block",
+                    properties -> new Block(properties
+                            .strength(4f, 3.0F) //破坏时间
+                            .requiresTool() //使用工具挖掘
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                            .mapColor(MapColor.WHITE)
+                            .slipperiness(0.75F) //有点滑
+                    ));
+    //      TODO: Wait to change & add to the lang & add more & add texture
+    public static final Block DARK_CRYSTAL_BLOCK =
+            registerBlock("dark_crystal_block",
+                    properties -> new Block(properties
+                            .strength(4f, 3.0F) //破坏时间
+                            .requiresTool() //使用工具挖掘
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                            .mapColor(MapColor.WHITE)
+                            .slipperiness(0.75F) //有点滑
+                    ));
+    //      TODO: Wait to change & add to the lang & add more & add texture
+    public static final Block SHADOW_CRYSTAL_BLOCK =
+            registerBlock("shadow_crystal_block",
+                    properties -> new Block(properties
+                            .strength(4f, 3.0F) //破坏时间
+                            .requiresTool() //使用工具挖掘
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                            .mapColor(MapColor.WHITE)
+                            .slipperiness(0.75F) //有点滑
+                    ));
+
+    //    Bricks
+
+    //    TODO: wait to change it
+    public static final Block OBSIDIAN_BRICK =
+            registerBlock("obsidian_brick",
+                    properties -> new Block(properties
+                            .strength(4f, 3.0F) //破坏时间
+                            .requiresTool() //使用工具挖掘
+                            .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                            .mapColor(MapColor.WHITE)
+                            .slipperiness(0.75F) //有点滑
+                    ));
+
     //  Nature
         //    Stone
     //TODO: Add texture & Change it
@@ -163,8 +250,8 @@ public class ModBlocks {
                                     .sounds(BlockSoundGroup.STONE)
                                     .mapColor(MapColor.BLACK)
                     ));
-    public static final Block PURPLE_OBSIDIAN =
-            registerBlock("purple_obsidian",
+    public static final Block PALE_PURPLE_OBSIDIAN =
+            registerBlock("pale_purple_obsidian",
                     properties ->new Block(
                             properties
                                     .instrument(NoteBlockInstrument.BASEDRUM)

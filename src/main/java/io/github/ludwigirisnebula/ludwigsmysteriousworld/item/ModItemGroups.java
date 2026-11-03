@@ -50,6 +50,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAHOGANY_OBSIDIAN);
                         entries.add(ModBlocks.SHEEN_OBSIDIAN);
                         entries.add(ModBlocks.GREEN_OBSIDIAN);
+                        entries.add(ModBlocks.PALE_PURPLE_OBSIDIAN);
+                        entries.add(ModBlocks.CURSED_OBSIDIAN);
 //                          Eyestone
                         entries.add(ModBlocks.WHITE_EYESTONE_BLOCK);
                         entries.add(ModBlocks.FLUORESCENT_EYESTONE_BLOCK);
@@ -97,6 +99,8 @@ public static final ItemGroup MATERIALS_AND_RESOURCES = Registry.register(Regist
                     entries.add(ModBlocks.MAHOGANY_OBSIDIAN);
                     entries.add(ModBlocks.SHEEN_OBSIDIAN);
                     entries.add(ModBlocks.GREEN_OBSIDIAN);
+                    entries.add(ModBlocks.PALE_PURPLE_OBSIDIAN);
+                    entries.add(ModBlocks.CURSED_OBSIDIAN);
 //                    Eyestone
                     entries.add(ModBlocks.WHITE_EYESTONE_BLOCK);
                     entries.add(ModItems.WHITE_EYESTONE_FRAGMENT);
